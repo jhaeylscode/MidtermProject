@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JL Magpayo/Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+     <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <img src="./images/logopngwhite.png" alt="mylogo">
+            </div>
+            
+
+            
+           <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm JL Magpayo </h1>
+           <p>A Simple<span id="changing-word"></span><br>
+      "Your Vision, My Design"
+    </p>
+            <a href="#projects" class="btn">View My Work</a>
+            
+            <button id="btn-aboutme">More About Me</button>
+        <div id="info" class="hide">
+          <p>Hi! I'm JL, a passionate Beginner
+             Developer from the
+             Philippines.</p>
+            <p>Name: Jhon Lester Bellen MAgpayo <br>Age: 21 <br>Birthday: January 25,2004 <br>Address: Brgy, Kibuaya, Hagonoy Davao Del Sur</p>
+        </div>
+        </div>
+    </section>
+    <video id="bgVideo" autoplay loop muted playsinline>
+        <source src="./images/background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+
+    <!--About Sectiion-->
+    <section id="about" class="page-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Passionate designer with a focus on creating intuitive and scalable Frontend designs. With expertise in modern technologies, I turn ideas into reality through clean code, a little bit AI and user-centered design.</p>
+                    <p>Previously, I've been working as a part-time designer with a quote "Your Vision, My Design", always prioritizing performance and accessibility.</p>
+                    <p>I believe in creating digital experiences that not only look beautiful but also function seamlessly across all devices and platforms.</p>
+                </div>
+                <div class="about-img">
+                    <img src="./images/profile.jpg" alt="JL Magpayo" class="profile-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Project Sction-->
+    <section id="projects" class="page-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./images/aboutmehover.png" alt="Hover Activities">
+                    <div class="project-overlay">
+                        <h3>Hover Activities</h3>
+                        <p>A responsive Hover with button to click to show the main content, built using HTML, CSS and JavaScript.</p>
+                        <div class="project-links">
+                            <a href="./About me Hover/home.html" target="_blank">View</a>
+                            <a href="https://github.com/jhaeylscode/aboutmehover.git" target="_blank"> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/simpleport.png" style="width: -10%; height: -10;" alt="Simple Portfolio">
+                    <div class="project-overlay">
+                        <h3>Simple Portfolio</h3>
+                        <p>My Simple Portfolio built using HTML for structure and CSS for design and styling.</p>
+                        <div class="project-links">
+                            <a href="./My Profile/magpayo,jhonlester.html" target="_blank">View</a>
+                            <a href="https://github.com/jhaeylscode/myprofile.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/darkmode.png" style="width: 100%; height: 90%; margin-top: 8%;" alt="Dark Mode">
+                    <div class="project-overlay">
+                        <h3>Dark Mode</h3>
+                        <p>A responsive Dark Mode toggle that switches between dark and light themes using HTML, CSS, and JavaScript.</p>
+                        <div class="project-links">
+                            <a href="./darkmode/dark.html"  target="_blank">View</a>
+                            <a href="https://github.com/jhaeylscode/darkmode.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/logo.png" style="width: 100%; height: 60%; margin-top: 20%;" alt="Canva Site">
+                    <div class="project-overlay">
+                        <h3>My Canva Site</h3>
+                        <p>A responsive Canva Website Portfolio for part-time job applications with direct viewing functionality.</p>
+                        <div class="project-links">
+                            <a href="https://jlmagpayo.my.canva.site/" target="_blank">Visit My Canva Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./images/practicehover.png" style="width: 100%; height: 80%; margin-top: 10%;" alt="Canva Site">
+                    <div class="project-overlay">
+                        <h3>Practice Hover</h3>
+                        <p>This is a CSS only for my practice about how Hover function.</p>
+                        <div class="project-links">
+                            <a href="./practicehover/index.html" target="_blank">View</a>
+                            <a href="https://github.com/jhaeylscode/practicehover.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="page-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, </p>
+                </div>
+                <div class="skill-item">
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, Python, APIs</p>
+                </div>        
+                <div class="skill-item">
+                    <h3>Tools</h3>
+                    <p>Git, Figma, Canva, Photoshop, Illustrator</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Design</h3>
+                    <p>UI/UX, Responsive, Animation</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Languages</h3>
+                    <p>JavaScript, Python, PHP, SQL, JAVA</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>jlmagpayo@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>63+ 995-173-1576</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mindanao,Digos Davao del sur, Philippines</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Available for freelance work</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Me a Message</h2>
+                    <form id="contactForm" action="https://formspree.io/f/mzzjwgyd" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="yourname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                        
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 JL Magpayo. All rights reserved — IT 634 Portfolio | <a href="contact.html">Get in Touch</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
